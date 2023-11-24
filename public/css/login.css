@@ -2,8 +2,51 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+a{
+    color: #eb4034;
+    font-weight: bold;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #eb4034;
+    border-color: #eb4034;
+}
 
-
+.login-card{
+    margin: 17rem 0;
+}
+.logo-login{
+    padding: 0 0.5em;
+    width: 3rem;
+    height: 2rem;
+}
+.login-header h4{
+    margin-top: 0.1em;
+}
+.desc-login{
+    margin: 1em 5em;
+    padding: 1em 14em;
+}
+.login-form{
+    margin: 1em 1em;
+    padding: 1em 10em;
+}
+.login-input{
+    color: #bfbfbf;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bfbfbf;
+    opacity: 0.7;
+    border-radius: 0.25rem;
+    margin: 1.5em 0;
+}
+.login-input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #eb4034;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 85, 0, 0.25);
+}
 .img-login{
  width: 100%;
  height: 75%;
