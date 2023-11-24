@@ -1,7 +1,7 @@
 <?= $this->extend($config->viewLayout) ?>
 <?= $this->section('main') ?>
 
-<div class="">
+<div>
 	<div class="row">
 		<div class="col-sm-6">
 

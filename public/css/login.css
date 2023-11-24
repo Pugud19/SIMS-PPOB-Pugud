@@ -15,6 +15,9 @@ a{
 .login-card{
     margin: 17rem 0;
 }
+.register-card{
+    margin: 11rem 0;
+}
 .logo-login{
     padding: 0 0.5em;
     width: 3rem;
