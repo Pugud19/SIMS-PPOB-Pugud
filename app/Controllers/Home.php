@@ -12,4 +12,8 @@ class Home extends BaseController
     {
         return view('topup');
     }
+    public function akun(): string
+    {
+        return view('akun');
+    }
 }

@@ -10,15 +10,17 @@
         </h5>
         </div>
         
+        <form action="<?= base_url('top-up') ?>" method="post" >
+        <?= csrf_field(); ?>
         <div class="row">
             <div class="col-8">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text">Rp</span>
                     </div>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Masukkan nominal Top Up">
+                    <input type="text" class="form-control" name="nominal"  placeholder="Masukkan nominal Top Up">
                 </div>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Top Up</button>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Top Up</button>
             </div>
             <div class="col-4">
                 <div class="row mb-3">
@@ -33,7 +35,7 @@
                 </div>
             </div>
         </div>
-        
+        </form>
     </section>
 
 

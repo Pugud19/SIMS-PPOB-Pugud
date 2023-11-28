@@ -29,9 +29,9 @@
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>
             <li class="menu-item hidden"><a href="<?= base_url('top-up') ?>">Top Up</a></li>
-            <li class="menu-item hidden"><a href="#" target="_blank">Transaction</a>
+            <li class="menu-item hidden"><a href="<?= base_url('transaction') ?>">Transaction</a>
             </li>
-            <li class="menu-item hidden"><a href="#" target="_blank">Akun</a></li>
+            <li class="menu-item hidden"><a href="<?= base_url('akun') ?>" target="">Akun</a></li>
         </ul>
     </div>
 
@@ -49,7 +49,7 @@
                 <div class="saldo-section">
                     <div class="desc-saldo">
                         <span>saldo anda</span>
-                        <h1>Rp.200.000</h1>
+                        <h1>Rp--------</h1>
                         <span>lihat detail</span>
                     </div>
                 </div>
